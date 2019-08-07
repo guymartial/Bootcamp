@@ -794,10 +794,6 @@ capture collapse (count) metatag if locationAccuracy>6 | locationAccuracy==., by
 	}
 restore
 
-**GPS Spatial data error-checks - By RE & Full list   
-preserve
-do "$dofiledir/`hhq_monit'.do"
-restore
 
 **Repeat for Female Accuracy
 
